@@ -14,7 +14,7 @@ body {
     min-height: 600px;
     display: block;
     text-align: center;
-  margin-top: 40px;
+  margin-top: 8em;
 }
 .navbar {
   background-color: var(--primary-color);
