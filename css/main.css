@@ -267,36 +267,7 @@ h1 {
   text-align: center;
 }
 
-/* pop up */
-.video-popup-toggle {
-    display: none;
-}
 
-.video-popup {
-    display: none;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: rgba(0, 0, 0, 0.8);
-    z-index: 9999;
-}
-
-.video-popup video {
-    display: block;
-    width: 80%;
-    max-width: 800px;
-    height: auto;
-    margin: 0 auto;
-}
-
-.image-container {
-    cursor: pointer;
-}
-
-.video-popup-toggle:checked + label .video-popup {
-    display: block;
-}
 
 .work h1 {
   margin: 1.3em auto;
@@ -335,6 +306,38 @@ h1 {
   border-radius: 5px;
   text-align: center;
 }
+
+/* pop up */
+.video-popup-toggle {
+    display: none;
+}
+
+.video-popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 9999;
+}
+
+.video-popup video {
+    display: block;
+    width: 80%;
+    max-width: 800px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.image-container {
+    cursor: pointer;
+}
+
+.video-popup-toggle:checked + label .video-popup {
+    display: block;
+}
+
 
 .pricing span {
   vertical-align: super;
